@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+    - name: 📚 Read the docs
+      url: https://dxflow.ai/docs
+      about: Check the published documentation first.
+    - name: 🤝 Edit a page
+      url: https://github.com/dxflow-ai/docs
+      about: Docs are Markdown — fix it directly and open a pull request.
+    - name: 🐛 Report a dxflow bug
+      url: https://github.com/dxflow-ai/community/issues
+      about: Found a bug in dxflow itself? Use the community tracker.

@@ -1,0 +1,67 @@
+name: 📝 Documentation Issue
+description: Report something unclear, missing, incorrect, or broken in the docs.
+title: "[Docs]: "
+labels: ["documentation", "triage"]
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Thanks for helping improve the docs! For small fixes, you can also edit the Markdown directly and open a pull request.
+              For bugs in dxflow itself, please use the [community tracker](https://github.com/dxflow-ai/community/issues).
+    - type: checkboxes
+      id: preflight
+      attributes:
+          label: Before you start
+          options:
+              - label: I have searched the [existing issues](https://github.com/dxflow-ai/docs/issues) and this hasn't been reported yet.
+                required: true
+    - type: dropdown
+      id: kind
+      attributes:
+          label: Type of issue
+          options:
+              - Unclear / confusing
+              - Missing content
+              - Incorrect / outdated
+              - Broken link or example
+              - Typo / formatting
+              - Other
+      validations:
+          required: true
+    - type: dropdown
+      id: section
+      attributes:
+          label: Section
+          description: Which documentation section is affected?
+          options:
+              - Getting Started
+              - User Interface
+              - CLI Reference
+              - API Reference
+              - Advanced Topics
+              - FAQs
+              - Other / site-wide
+      validations:
+          required: true
+    - type: input
+      id: page
+      attributes:
+          label: Page / URL
+          description: The specific page affected, if you have it.
+          placeholder: e.g. https://dxflow.ai/docs/cli/workflow/create
+      validations:
+          required: false
+    - type: textarea
+      id: description
+      attributes:
+          label: Description
+          description: What's wrong, and what would make it clearer or correct?
+      validations:
+          required: true
+    - type: textarea
+      id: suggestion
+      attributes:
+          label: Suggested change
+          description: If you have wording or content in mind, share it here.
+      validations:
+          required: false
