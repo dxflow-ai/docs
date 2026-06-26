@@ -3,103 +3,38 @@ title: dxflow Engine
 description: A self-contained engine for running containerized workflows on Docker, Podman, Singularity, and Apptainer, with a unified CLI, REST API, and web UI
 ---
 
-Welcome to dxflow - the comprehensive distributed computing engine that transforms any accessible machine into a first-class member of your computational fleet.
+dxflow is a self-contained engine that turns any machine into a node for running containerized workflows. Install one binary, and you get a unified CLI, REST API, and web console for orchestrating workflows across Docker, Podman, Singularity, and Apptainer.
 
-## Overview
+## What you get
 
-dxflow provides a unified interface for orchestrating containerized workflows across different runtimes:
+- **Multi-runtime**: run containers on Docker, Podman, Singularity, or Apptainer
+- **Compose workflows**: orchestrate multi-container apps from YAML definitions
+- **Three interfaces**: CLI, REST API, and a web console — all backed by the same engine
+- **Secure by default**: RSA key-pair authentication with per-key, composable permissions
+- **No lock-in**: runs on your existing infrastructure — cloud, on-premise, or laptop
 
-- **Multi-Runtime Support**: Run containers on Docker, Podman, Singularity, or Apptainer
-- **Compose Workflows**: Orchestrate multi-container applications with Docker Compose files
-- **CLI Interface**: Powerful command-line tools for automation
-- **REST API**: Programmatic access for integration
-- **Web UI**: Intuitive browser-based interface
-
-## Quick Start
-
-Get started with dxflow in minutes:
+## Start here
 
 ::card-group
   ::card{title="Getting Started" to="/docs/getting-started"}
-  Learn the basics and get dxflow installed
+  Install dxflow and run your first workflow
   ::
 
   ::card{title="User Interface" to="/docs/interface"}
-  Explore the web-based interface
+  Manage workflows, files, and shells from the web console
   ::
 
   ::card{title="CLI Reference" to="/docs/cli"}
-  Master the command-line interface
+  Every command, flag, and option
   ::
 
   ::card{title="API Documentation" to="/docs/api"}
-  Integrate via REST API
+  Integrate via the REST API
   ::
 ::
 
-## Why dxflow?
+## About
 
-::callout{color="green"}
-dxflow transforms distributed computing by providing enterprise-grade workflow orchestration across any accessible infrastructure.
-::
+dxflow started at [DiPhyX](https://www.diphyx.com) to replace the sprawl of ad-hoc scripts, clusters, and logs that slow down scientific computing. It grew through real bioinformatics, CFD, and materials-science projects into a production engine that works with GROMACS, Ansys Fluent, custom solvers, and any containerized application.
 
-- **Universal Access**: Connect any machine, anywhere
-- **Enterprise Security**: Built-in authentication and authorization
-- **Unified Interface**: Single tool for all your computing needs
-- **Scalable Architecture**: From single nodes to massive clusters
-
-## About dxflow
-
-### Our Journey
-
-dxflow began as an internal initiative at [DiPhyX](https://www.diphyx.com) to streamline sprawling scripts, clusters, and ad-hoc logs that slow down scientific progress. Initially a weekend hack intended to create an "MLflow for physics and chemistry," it has evolved through numerous projects in bioinformatics, CFD, and materials science into a robust, production-grade engine available for everyone.
-
-### Our Mission
-
-We are committed to accelerating scientific innovation by offering a unified, scalable, and intuitive cloud platform for end-to-end computational pipelines. Every feature in dxflow is designed to help researchers:
-1. Speed up discovery.
-2. Ensure reproducibility.
-3. Simplify complex computational workflows.
-
-### Scientific-First Approach
-
-**Built for Real Research Needs:**
-- **Native Compatibility**: Works with GROMACS, Ansys Fluent, custom solvers, and any containerized application
-- **No Vendor Lock-in**: Runs on existing infrastructure without requiring cloud migration
-- **Researcher-Friendly**: Designed by scientists who understand the pain of failed overnight runs
-
-### Who Benefits
-
-::tabs
-  ::tab-item{label="Researchers"}
-  Life sciences, CFD, computational chemistry - scale studies without infrastructure headaches
-  ::
-
-  ::tab-item{label="Data Teams"}
-  Build physics-informed ML pipelines across hybrid cloud environments
-  ::
-
-  ::tab-item{label="Organizations"}
-  Academic groups and startups - access HPC power without operational overhead
-  ::
-::
-
-### Built by Scientists for Scientists
-
-Our core team brings over 20 years of combined experience on national supercomputers and has published more than 50 peer-reviewed papers. We understand the challenges of failed overnight runs and design dxflow to minimize such setbacks.
-
-## Contact Us
-
-Have questions about dxflow or need support? We'd love to hear from you.
-
-::callout{color="blue"}
-**Get in Touch with DiPhyX**
-::
-
-- **Website**: [dxflow.ai](https://dxflow.ai)
-- **Email**: [info@dxflow.ai](mailto:info@dxflow.ai)
-- **Phone**: +1 (619) 693-6161
-- **Schedule a Call**: [Book 30-minute consultation](https://calendly.com/diphyx/30min)
-- **Community**: Join our community discussions and get help from other users
-
-Whether you're looking to integrate dxflow into your research workflow, need technical assistance, or want to contribute to the project, our team is here to help accelerate your scientific computing journey.
+**Contact**: [dxflow.ai](https://dxflow.ai) · [info@dxflow.ai](mailto:info@dxflow.ai) · [Book a call](https://calendly.com/diphyx/30min)
