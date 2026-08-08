@@ -8,7 +8,7 @@ dxflow is a self-contained engine that turns any machine into a node for running
 ## What you get
 
 - **Multi-runtime**: run containers on Docker, Podman, Singularity, or Apptainer
-- **Compose workflows**: orchestrate multi-container apps from YAML definitions
+- **YAML workflows**: orchestrate multi-step, multi-container apps from a single definition
 - **Three interfaces**: CLI, REST API, and a web console — all backed by the same engine
 - **Secure by default**: RSA key-pair authentication with per-key, composable permissions
 - **No lock-in**: runs on your existing infrastructure — cloud, on-premise, or laptop
