@@ -36,5 +36,3 @@ dxflow is a self-contained engine that turns any machine into a node for running
 ## About
 
 dxflow started at [DiPhyX](https://www.diphyx.com) to replace the sprawl of ad-hoc scripts, clusters, and logs that slow down scientific computing. It grew through real bioinformatics, CFD, and materials-science projects into a production engine that works with GROMACS, Ansys Fluent, custom solvers, and any containerized application.
-
-**Contact**: [dxflow.ai](https://dxflow.ai) · [info@dxflow.ai](mailto:info@dxflow.ai) · [Book a call](https://calendly.com/diphyx/30min)
